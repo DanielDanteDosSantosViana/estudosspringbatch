@@ -1,0 +1,7 @@
+colossus.configuration:
+  jobs:
+    scheduler:
+      enabled: ${SCHEDULER_ENABLED:false}
+      cron:
+        processFiles: ${CRON_PROCESS_FILES:0/15 * * * * SUN-SAT}
+      
